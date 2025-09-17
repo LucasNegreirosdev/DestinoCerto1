@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.topo {
+    background: linear-gradient(to right, black, blue);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo {
+    font-size: 30px;
+    text-align:justify;
+}
+.logo img{
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 100px;
+    width:100px ;
+    height:100px ;
+}
+
+
+.botoes button {
+    background: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* Menu */
+.menu {
+    background-color: #1b1bb0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-image: url('assests/cristp.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    border-top-left-radius: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+.abas {
+    border: none;
+    color: white;
+}
+
+/* Sessão de destaques */
+.destaques {
+    padding: 20px;
+}
+
+.destaques h2 {
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+/* Rodapé */
+.rodape {
+  background: linear-gradient(to right, #000020, #2d21a8);
+  color: white;
+  padding: 30px 15px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.rodape-conteudo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.coluna {
+  margin: 10px;
+  min-width: 180px;
+}
+
+.coluna h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.coluna p {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.coluna p:hover {
+  text-decoration: underline;
+}
+
+.rodape-inferior {
+  text-align: center;
+  font-size: 13px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 10px;
+}
